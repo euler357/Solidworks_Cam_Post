@@ -285,10 +285,8 @@
 *------------------------------
 
 :SECTION=PRINT_HEADER
-:T:(******************************)<EOL>
 :T:(* Shapeoko 5 Post Processor  *)<EOL>
 :T:(* https://cockrumstudios.com *)<EOL>
-:T:(******************************)<EOL>
 :T:<BLANK><EOL>
 *:T:<MTIME_HOURS><EOL>
 *:T:<BLANK><EOL>
@@ -297,13 +295,14 @@
 :SECTION=START_OF_TAPE
 :T:<BLANK><EOL>
 :T:<N><G:90><G:94><G:17><G!:ENGMET><G!:80><EOL>
+:T:<N><G:1>F20<EOL>
 
 *
 :SECTION=INIT_TOOL_CHANGE_MILL
 :T:<BLANK><EOL>
 :T:(Tool Change)<EOL>
 :T:<N><TOOL_COMMENT><EOL>
-:T:<N><G!:91><G:28> X0 Y0 Z0<EOL>
+:T:<N><G!:91><G:28> Z0<EOL>
 :T:<N><M:06><T><EOL>
 :T:<N><S!><M!:SPINDLE_DIR><EOL>
 :T:<N><M!:COOLANT_TYPE><EOL>
@@ -313,7 +312,7 @@
 :T:<BLANK><EOL>
 :T:(Tool Change)<EOL>
 :T:<N><TOOL_COMMENT><EOL>
-:T:<N><G!:91><G:28> X0 Y0 Z0<EOL>
+:T:<N><G!:91><G:28> Z0<EOL>
 :T:<N><M:06><T><EOL>
 :T:<N><S!><M!:SPINDLE_DIR><EOL>
 :T:<N><M!:COOLANT_TYPE><EOL>
@@ -323,7 +322,7 @@
 :T:<BLANK><EOL>
 :T:(Tool Change)<EOL>
 :T:<N><TOOL_COMMENT><EOL>
-:T:<N><G!:91><G:28> X0 Y0 Z0<EOL>
+:T:<N><G!:91><G:28> Z0<EOL>
 :T:<N><M:06><T><EOL>
 :T:<N><S!><M!:SPINDLE_DIR><EOL>
 :T:<N><M!:COOLANT_TYPE><EOL>
@@ -332,7 +331,7 @@
 :T:<BLANK><EOL>
 :T:(Tool Change)<EOL>
 :T:<N><TOOL_COMMENT><EOL>
-:T:<N><G!:91><G:28> X0 Y0 Z0<EOL>
+:T:<N><G!:91><G:28> Z0<EOL>
 :T:<N><M:06><T><EOL>
 :T:<N><S!><M!:SPINDLE_DIR><EOL>
 :T:<N><M!:COOLANT_TYPE><EOL>
